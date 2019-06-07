@@ -1,6 +1,3 @@
-// jquery.rememberscroll.js a jQuery plugin that remembers where user scrolls in a web page. When the user comes back to the page later, it automatically jumps to the most recent scroll position 
-// Author: Steve
-//
 // function $.scrollTrack
 // Description: Enable tracking of web page scroll position
 // parameters:
@@ -18,12 +15,10 @@ $.scrollTrack = function(seconds, expiredays) {
 
 	if (typeof seconds === 'undefined') seconds = 2;
 	if (typeof expiredays === 'undefined') expiredays = 365;
-	console.log('hi');
 	var position = Cookies.get('position');
 	if (typeof position === 'undefined') {
 		position = document.scrollingElement.scrollTop;
 		Cookies.set('position',position,{expires: expiredays});
-		console.log('wut');
 	}
 	window.scrollBy(0,position);
 	
@@ -32,7 +27,6 @@ setInterval(function() {
 		if ($.scrollY == position) return;
 		position = document.scrollingElement.scrollTop
 		Cookies.set('position',position,{expires: expiredays});
-		console.log(position);
 	},1000*seconds);
 	
 };
