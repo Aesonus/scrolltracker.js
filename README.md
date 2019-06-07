@@ -5,8 +5,8 @@ This tracks a users scroll location on the y axis and returns the user to that l
 
 ex:
 
-$.positionTrack()
-$.positionTrack(1)
-$.positionTrack(1,365*3)
+$.positionTrack()    
+$.positionTrack(1)    
+$.positionTrack(1,365*3)    
 
 Requires jscookie https://github.com/js-cookie/js-cookie
