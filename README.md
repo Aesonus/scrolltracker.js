@@ -1,7 +1,7 @@
 # scrolltracker.js
 scrolltrack.js
 
-This tracks a users scroll location on the y axis and returns the user to that location on refresh by storing the data in a cookie.  You can apply a frequency for the function to check and a cookie duration.
+This tracks a users scroll location on the y axis and returns the user to that location on refresh by storing the data in a cookie.  You can apply a frequency for the function to check (in second; the default is 2) and a cookie duration (in days).
 
 ex:
 
