@@ -9,6 +9,6 @@ ex:
 
 $.positionTrack()    
 $.positionTrack(1)    
-$.positionTrack(1,365*3)    
+$.positionTrack(1, 365*3)    
 
 Requires jscookie https://github.com/js-cookie/js-cookie
