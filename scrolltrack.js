@@ -1,13 +1,13 @@
 // function $.scrollTrack
-// Description: Enable tracking of web page scroll position
-// parameters:
-//     seconds: the frequency, i.e. in every this number of seconds the page scroll position will be queried, default is 2 seconds
-//     expiredays: number of days cookies will be effective to store position data, default is 365 days
+// Description: Tracks the user's scroll position and reapplies position on page refresh.
+//parameters:
+//     first parameter stores the scroll position polling frequency in seconds, defaults to 2 seconds
+//     second parameter stores the expiration time in days of the cookie that is used to hold the scroll position
 // Usage example 1: $.positionTrack()
 // Usage example 2: $.positionTrack(1)
 // Usage example 2: $.positionTrack(1, 365*5)
 //
-// The function can normally be called from within jQuery $(document).ready block.
+// The function should ideally be called from within jQuery $(document).ready block.
 
 
 
