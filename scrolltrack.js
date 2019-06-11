@@ -1,7 +1,7 @@
 // function $.scrollTrack
-//authors: Steve and Robert Williams
+// authors: Steve and Robert Williams
 // Description: Tracks the user's scroll position and reapplies position on page refresh.
-//parameters:
+// parameters:
 //     first parameter stores the scroll position polling frequency in seconds, defaults to 2 seconds
 //     second parameter stores the expiration time in days of the cookie that is used to hold the scroll position
 // Usage example 1: $.positionTrack()
