@@ -7,8 +7,10 @@ Load jquery, then js-cookie, then this script, and execute $.positionTrack(), an
 
 ex:
 
-$.positionTrack()    
-$.positionTrack(1)    
-$.positionTrack(1, 365*3)    
+$(document).scrollTrack()    
+$(document).scrollTrack(1)    
+$(document).scrollTrack(1, 365*3)    
+
+See index.html for a better use case example
 
 Requires jscookie https://github.com/js-cookie/js-cookie
